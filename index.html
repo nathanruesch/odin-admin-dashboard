@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Odin Admin Dashboard</title>
+</head>
+<body>
+    <div id="parent">
+        <div class="left">
+            <div id="sidebar">
+                <div id="sidebar-top" class="sidebar-grid">
+                    <img src="img/dashboard.png" class="sidebar-grid-item sidebar-grid-item-left" id="sidebar-title-image">
+                    <p id="sidebar-title" class="sidebar-grid-item sidebar-grid-item-right">Solution</p>
+                </div>
+
+                <div id="sidebar-middle" class="sidebar-grid">
+                    <img src="img/home.png" class="sidebar-grid-item sidebar-grid-item-left">
+                    <p class="sidebar-grid-item sidebar-grid-item-right">Home</p>
+
+                    <img src="img/profile.png" class="sidebar-grid-item sidebar-grid-item-left">
+                    <p class="sidebar-grid-item sidebar-grid-item-right">Profile</p>
+
+                    <img src="img/messages.png" class="sidebar-grid-item sidebar-grid-item-left">
+                    <p class="sidebar-grid-item sidebar-grid-item-right">Messages</p>
+
+                    <img src="img/history.png" class="sidebar-grid-item sidebar-grid-item-left">
+                    <p class="sidebar-grid-item sidebar-grid-item-right">History</p>
+
+                    <img src="img/tasks.png" class="sidebar-grid-item sidebar-grid-item-left">
+                    <p class="sidebar-grid-item sidebar-grid-item-right">Tasks</p>
+
+                    <img src="img/communities.png" class="sidebar-grid-item sidebar-grid-item-left">
+                    <p class="sidebar-grid-item sidebar-grid-item-right">Communities</p>
+                </div>
+
+                <div id="sidebar-bottom" class="sidebar-grid">
+                    <img src="img/settings.png" class="sidebar-grid-item sidebar-grid-item-left">
+                    <p class="sidebar-grid-item sidebar-grid-item-right">Settings</p>
+
+                    <img src="img/support.png" class="sidebar-grid-item sidebar-grid-item-left">
+                    <p class="sidebar-grid-item sidebar-grid-item-right">Support</p>
+
+                    <img src="img/privacy.png" class="sidebar-grid-item sidebar-grid-item-left">
+                    <p class="sidebar-grid-item sidebar-grid-item-right">Privacy</p>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div id="header">
+                <div id="header-top">
+                    <div id="header-search">
+                        <img src="img/search.svg" class="header-search-item" id="header-search-icon">
+                        <input type="text" class="header-search-item" id="header-search-box">
+                    </div>
+                    <div id="header-profile">
+                        <img src="img/bell-alert.svg" id="header-profile-notifications-image">
+                        <img src="img/wrench.svg" id="header-profile-user" class="header-profile-item">
+                        <p class="header-profile-item" id="header-profile-username">HaloReach252</p>
+                    </div>
+                </div>
+                <div id="header-bottom">
+                    <div id="header-bottom-left">
+                        <img src="img/profile1.svg" class="header-bottom-image">
+                        <div class="header-bottom-user">
+                            Hi there,<br>
+                            <span class="header-bottom-important">Nathan (@haloreach252)</span>
+                        </div>
+                    </div>
+                    <div id="header-bottom-right">
+                        <button class="header-button">
+                            New
+                        </button>
+                        <button class="header-button">
+                            Upload
+                        </button>
+                        <button class="header-button">
+                            Share
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div id="content">
+                <div id="content-projects">
+                    <h3>Your Projects</h3>
+                    <div id="content-projects-grid">
+                        <div class="content-projects-item">
+                            <div class="content-project-info">
+                                <p class="content-project-title"><b>Super Cool Project</b></p>
+                                <p class="content-project-desc">
+                                    This is a project description, it tends to give you information about a specific project. 
+                                    Usually, you'll have the basics here like a simple description about the project
+                                </p>
+                            </div>
+                            <div class="content-projects-buttons">
+                                <button class="content-project-button" id="content-project-favorite">
+                                    <img src="img/star-plus.svg">
+                                </button>
+                                <button class="content-project-button" id="content-project-watch">
+                                    <img src="img/clock-plus.svg">
+                                </button>
+                                <button class="content-project-button" id="content-project-branch">
+                                    <img src="img/source-branch.svg">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="content-projects-item">
+                            <div class="content-project-info">
+                                <p class="content-project-title"><b>Less Cool Project</b></p>
+                                <p class="content-project-desc">
+                                    This is a project description, it tends to give you information about a specific project. 
+                                    Usually, you'll have the basics here like a simple description about the project
+                                </p>
+                            </div>
+                            <div class="content-projects-buttons">
+                                <button class="content-project-button" id="content-project-favorite">
+                                    <img src="img/star-plus.svg">
+                                </button>
+                                <button class="content-project-button" id="content-project-watch">
+                                    <img src="img/clock-plus.svg">
+                                </button>
+                                <button class="content-project-button" id="content-project-branch">
+                                    <img src="img/source-branch.svg">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="content-projects-item">
+                            <div class="content-project-info">
+                                <p class="content-project-title"><b>Impossible App</b></p>
+                                <p class="content-project-desc">
+                                    This is a project description, it tends to give you information about a specific project. 
+                                    Usually, you'll have the basics here like a simple description about the project
+                                </p>
+                            </div>
+                            <div class="content-projects-buttons">
+                                <button class="content-project-button" id="content-project-favorite">
+                                    <img src="img/star-plus.svg">
+                                </button>
+                                <button class="content-project-button" id="content-project-watch">
+                                    <img src="img/clock-plus.svg">
+                                </button>
+                                <button class="content-project-button" id="content-project-branch">
+                                    <img src="img/source-branch.svg">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="content-projects-item">
+                            <div class="content-project-info">
+                                <p class="content-project-title"><b>Easy Peasy App</b></p>
+                                <p class="content-project-desc">
+                                    This is a project description, it tends to give you information about a specific project. 
+                                    Usually, you'll have the basics here like a simple description about the project
+                                </p>
+                            </div>
+                            <div class="content-projects-buttons">
+                                <button class="content-project-button" id="content-project-favorite">
+                                    <img src="img/star-plus.svg">
+                                </button>
+                                <button class="content-project-button" id="content-project-watch">
+                                    <img src="img/clock-plus.svg">
+                                </button>
+                                <button class="content-project-button" id="content-project-branch">
+                                    <img src="img/source-branch.svg">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="content-projects-item">
+                            <div class="content-project-info">
+                                <p class="content-project-title"><b>Ad Blocker</b></p>
+                                <p class="content-project-desc">
+                                    This is a project description, it tends to give you information about a specific project. 
+                                    Usually, you'll have the basics here like a simple description about the project
+                                </p>
+                            </div>
+                            <div class="content-projects-buttons">
+                                <button class="content-project-button" id="content-project-favorite">
+                                    <img src="img/star-plus.svg">
+                                </button>
+                                <button class="content-project-button" id="content-project-watch">
+                                    <img src="img/clock-plus.svg">
+                                </button>
+                                <button class="content-project-button" id="content-project-branch">
+                                    <img src="img/source-branch.svg">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="content-projects-item">
+                            <div class="content-project-info">
+                                <p class="content-project-title"><b>Money Maker</b></p>
+                                <p class="content-project-desc">
+                                    This is a project description, it tends to give you information about a specific project. 
+                                    Usually, you'll have the basics here like a simple description about the project
+                                </p>
+                            </div>
+                            <div class="content-projects-buttons">
+                                <button class="content-project-button" id="content-project-favorite">
+                                    <img src="img/star-plus.svg">
+                                </button>
+                                <button class="content-project-button" id="content-project-watch">
+                                    <img src="img/clock-plus.svg">
+                                </button>
+                                <button class="content-project-button" id="content-project-branch">
+                                    <img src="img/source-branch.svg">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="content-right">
+                    <div id="content-announcements">
+                        <h3>Announcements</h3>
+                        <div id="content-announcements-box">
+                            <div class="content-annoucement">
+                                <h3 class="content-annoucement-title">Site Maintenance</h3>
+                                <p class="content-annoucement-content">
+                                    The site is undergoing maintenance right now, please make sure to account 
+                                    for that when you try and do something...
+                                </p>
+                            </div>
+                            <hr>
+                            <div class="content-annoucement">
+                                <h3 class="content-annoucement-title">Community Share Day</h3>
+                                <p class="content-annoucement-content">
+                                    It's community share day! Share your content with other people to gain 
+                                    valuable insight into what you're doing right or wrong...
+                                </p>
+                            </div>
+                            <hr>
+                            <div class="content-annoucement">
+                                <h3 class="content-annoucement-title">Updated Privacy Policy</h3>
+                                <p class="content-annoucement-content">
+                                    We've recently updated our privacy policy and would love to hear your feedback 
+                                    on it. Please fill out the form below...
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="content-trending">
+                        <h3>Trending</h3>
+                        <div id="content-trending-box">
+                            <div class="content-trending-box-item">
+                                <img src="img/profile1.svg" class="trending-profile">
+                                <p class="trending-user">
+                                    @tegan<br>
+                                    <span class="trending-user-sub">World Peace Builder</span>
+                                </p>
+                            </div>
+                            <div class="content-trending-box-item">
+                                <img src="img/profile1.svg" class="trending-profile">
+                                <p class="trending-user">
+                                    @morgan<br>
+                                    <span class="trending-user-sub">Super Cool Project</span>
+                                </p>
+                            </div>
+                            <div class="content-trending-box-item">
+                                <img src="img/profile1.svg" class="trending-profile">
+                                <p class="trending-user">
+                                    @kendall<br>
+                                    <span class="trending-user-sub">Life Changing App</span>
+                                </p>
+                            </div>
+                            <div class="content-trending-box-item">
+                                <img src="img/profile1.svg" class="trending-profile">
+                                <p class="trending-user">
+                                    @alex<br>
+                                    <span class="trending-user-sub">No Traffic Maker</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
